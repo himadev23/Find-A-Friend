@@ -1,4 +1,27 @@
-$("#submit").on("click", function(event) {
+
+
+
+    var array = [
+{
+    name: 'Samanta',
+    photo: 'http://images.newindianexpress.com/uploads/user/imagelibrary/2017/9/25/original/Samantha.jpg',
+    scores: [2,5,3,4,1,2,4,5,2,1]
+},
+{
+  name:'Thamanna',
+  photo:'http://cdn2.stylecraze.com/wp-content/uploads/2017/04/Tamanna-Bhatia%E2%80%99s-Diet-And-Exercise-Plan.jpg',
+  scores:[5,3,4,5,4,2,3,4,1,5]
+},
+{
+  name:'rakul',
+  photo:'http://images.newindianexpress.com/uploads/user/imagelibrary/2017/9/25/original/Samantha.jpg',
+  scores:[5,4,3,2,1,2,3,4,5,4]
+}]
+
+module.exports=array;
+
+
+/*$("#submit").on("click", function(event) {
       event.preventDefault();
 
       var newFriend = {
@@ -24,4 +47,8 @@ $("#submit").on("click", function(event) {
         alert("Adding customer...");
       });
 
-    });
+    })*/
+
+ 
+
+
